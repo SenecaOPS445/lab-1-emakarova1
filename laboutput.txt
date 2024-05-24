@@ -17,7 +17,7 @@ Traceback (most recent call last):
 AssertionError: 1 != 0 : your program exited with a error(HINT: try running your program to see/read the error)
 
 ----------------------------------------------------------------------
-Ran 2 tests in 0.211s
+Ran 2 tests in 0.099s
 
 FAILED (failures=1)
 OPS435 Lab Report - System Information for running ./CheckLab1.py
@@ -29,5 +29,5 @@ OPS435 Lab Report - System Information for running ./CheckLab1.py
     Python version: 3123
     OS Platform: linux
     Working Directory: /home/elena/lab1-demo
-    Start at: Fri May 24 15:02:08 2024
+    Start at: Fri May 24 15:04:26 2024
 =================================================================
