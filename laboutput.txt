@@ -5,23 +5,19 @@ test_a (__main__.lab1a.test_a)
 [Lab 1] - [Investigation 3] - [Part 2] - printing - Test for errors running: ./lab1a.py ... /usr/lib/python3.12/subprocess.py:822: ResourceWarning: unclosed file <_io.TextIOWrapper name=3 encoding='UTF-8'>
   _cleanup()
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-ok
-test_a1 (__main__.lab1a.test_a1)
-[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for correct shebang line: ./lab1a.py ... FAIL
+FAIL
 
 ======================================================================
-FAIL: test_a1 (__main__.lab1a.test_a1)
-[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for correct shebang line: ./lab1a.py
+FAIL: test_a (__main__.lab1a.test_a)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for errors running: ./lab1a.py
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/home/elena/lab1-demo/./CheckLab1.py", line 79, in test_a1
-    self.assertEqual(first_line, '#!/usr/bin/env python3\n', msg=error_output)
-AssertionError: '' != '#!/usr/bin/env python3\n'
-+ #!/usr/bin/env python3
- : your program does not have a shebang line(HINT: what should the first line contain)
+  File "/home/elena/lab1-demo/./CheckLab1.py", line 71, in test_a
+    self.assertEqual(return_code, 0, msg=error_output)
+AssertionError: 1 != 0 : your program exited with a error(HINT: try running your program to see/read the error)
 
 ----------------------------------------------------------------------
-Ran 3 tests in 0.013s
+Ran 2 tests in 0.211s
 
 FAILED (failures=1)
 OPS435 Lab Report - System Information for running ./CheckLab1.py
@@ -33,5 +29,5 @@ OPS435 Lab Report - System Information for running ./CheckLab1.py
     Python version: 3123
     OS Platform: linux
     Working Directory: /home/elena/lab1-demo
-    Start at: Fri May 24 14:03:36 2024
+    Start at: Fri May 24 15:02:08 2024
 =================================================================
