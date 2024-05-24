@@ -1,1 +1,5 @@
-python3: can't open file '/home/elena/lab1-demo/./CheckLab2.py': [Errno 2] No such file or directory
+#!/usr/bin/env python3
+
+name = 'Jon'
+age = 20
+print('Hi ' + name + ', you are ' + str(age) + ' years old.')
